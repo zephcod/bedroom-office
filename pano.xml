@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.11" start="node6" apprev="18043">
+  <panorama hideabout="1" id="node7">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400" width="1500" height="1500" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" fov="120" fovfisheye="360" pan="360" scaletofit="1"/>
+    </view>
+    <userdata title="Working Area" latitude="" copyright="Sofonias L" tags="pano" datetime="2/4/2024 7:07 PM" heading="0" description="Prepared by SOF Studio" info="" customnodeid="" source="" nodeid="node7" comment="" longitude="" author="Sofonias L"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" wordwrap="1" border="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" background="1" width="180" height="20" bordercolor="0x000000" enabled="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="Station 1" tilt="-14.01" url="{node6}" skinid="ht_node" description="" target="-178.6/-2.1/70.0" pan="-17.94" id="1"/>
+      <hotspot title="Sketch &amp; Pin Board" tilt="1.46" url="" skinid="ht_info" description="" target="" pan="-14.64" id="Point01"/>
+      <hotspot title="Adjustable Tracklight" tilt="33.26" url="" skinid="ht_info" description="" target="" pan="-25.22" id="Point02"/>
+      <hotspot title="22&quot;X72&quot; Cabinet" tilt="10.66" url="" skinid="ht_info" description="" target="" pan="-121" id="Point03"/>
+      <hotspot title="Recessed drape rod" tilt="58.39" url="" skinid="ht_info" description="" target="" pan="-196.84" id="Point04"/>
+      <hotspot title="Resting/Reading" tilt="-53.61" url="" skinid="ht_info" description="" target="" pan="-203.51" id="Point05"/>
+      <hotspot title="Storage Drawers" tilt="-74.27" url="" skinid="ht_info" description="" target="" pan="-217.94" id="Point06"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomspeed="3.5" zoomin="6" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1" enabled="1"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" speedwheel="1" lockedwheel="0" hideabout="1" contextprojections="1" rubberband="0" lockedkeyboard="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" contextfullscreen="1" lockedmouse="0" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400" width="1500" height="1500" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level preload="0" predecode="0" width="1500" height="1500"/>
+      <level preload="0" predecode="0" width="750" height="750"/>
+      <level preload="1" predecode="1" width="375" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start projection="4" tilt="0" fov="70" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="270" fov="120" fovfisheye="360" pan="360" scaletofit="1"/>
+    </view>
+    <userdata title="Relaxing Area" latitude="" copyright="Sofonias L" tags="pano" datetime="2/4/2024 7:06 PM" heading="0" description="Prepared by SOF Studio" info="" customnodeid="" source="" nodeid="node6" comment="" longitude="" author="Sofonias L"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label borderalpha="1" backgroundalpha="1" wordwrap="1" border="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" background="1" width="180" height="20" bordercolor="0x000000" enabled="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
+      <hotspot title="Station 2" tilt="-14.71" url="{node7}" skinid="ht_node" description="" target="171.4/-1.3/70.0" pan="-20.35" id="2"/>
+      <hotspot title="Resting/Reading Area" tilt="-17.55" url="" skinid="ht_info" description="" target="" pan="-5.46" id="Point01"/>
+      <hotspot title="22&quot;X72&quot; Cabinet" tilt="10.72" url="" skinid="ht_info" description="" target="" pan="-339.47" id="Point02"/>
+      <hotspot title="Storage drawers" tilt="-27.34" url="" skinid="ht_info" description="" target="" pan="-5.74" id="Point03"/>
+      <hotspot title="Adjustable tracklights" tilt="33.16" url="" skinid="ht_info" description="" target="" pan="-23.27" id="Point04"/>
+      <hotspot title="Sketch &amp; Pin Board" tilt="15.46" url="" skinid="ht_info" description="" target="" pan="-215.2" id="Point05"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomspeed="3.5" zoomin="6" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1" enabled="1"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control simulatemass="1" speedwheel="1" lockedwheel="0" hideabout="1" contextprojections="1" rubberband="0" lockedkeyboard="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" contextfullscreen="1" lockedmouse="0" invertcontrol="1"/>
+  </panorama>
+  <masternode>
+    <userdata title="Bedroom-Office" latitude="" copyright="Sofonias L" tags="" datetime="" heading="0" description="Prepared by SOF Studio" info="" customnodeid="" source="" nodeid="master" comment="" longitude="" author="Sofonias L"/>
+  </masternode>
+  <map title="Bathroom Floor Plan" bgcolor="rgba(255, 255, 255, 1)" zoomlevels="1" type="file" id="FloorPlan01" width="0" height="0" transparent="0" tileformat="jpg" floorplannorth="220"/>
+</tour>
