@@ -17,13 +17,15 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label borderalpha="1" backgroundalpha="1" wordwrap="1" border="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" background="1" width="180" height="20" bordercolor="0x000000" enabled="1" textcolor="0x000000"/>
       <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
-      <hotspot title="Station 1" tilt="-14.01" url="{node6}" skinid="ht_node" description="" target="-178.6/-2.1/70.0" pan="-17.94" id="1"/>
-      <hotspot title="Sketch &amp; Pin Board" tilt="1.46" url="" skinid="ht_info" description="" target="" pan="-14.64" id="Point01"/>
+      <hotspot title="Working Area" tilt="-9.56" url="{node6}" skinid="ht_node" description="" target="-178.6/-2.1/70.0" pan="-1.17" id="1"/>
+      <hotspot title="Sketch &amp; Pin Board" tilt="2.7" url="" skinid="ht_info" description="" target="" pan="-13.83" id="Point01"/>
       <hotspot title="Adjustable Tracklight" tilt="33.26" url="" skinid="ht_info" description="" target="" pan="-25.22" id="Point02"/>
-      <hotspot title="22&quot;X72&quot; Cabinet" tilt="10.66" url="" skinid="ht_info" description="" target="" pan="-121" id="Point03"/>
-      <hotspot title="Recessed drape rod" tilt="58.39" url="" skinid="ht_info" description="" target="" pan="-196.84" id="Point04"/>
-      <hotspot title="Resting/Reading" tilt="-53.61" url="" skinid="ht_info" description="" target="" pan="-203.51" id="Point05"/>
-      <hotspot title="Storage Drawers" tilt="-74.27" url="" skinid="ht_info" description="" target="" pan="-217.94" id="Point06"/>
+      <hotspot title="Recessed drape rod" tilt="42.34" url="" skinid="ht_info" description="" target="" pan="-87.37" id="Point04"/>
+      <hotspot title="Resting/Reading" tilt="-40.77" url="" skinid="ht_info" description="" target="" pan="-75.8" id="Point05"/>
+      <hotspot title="Storage Drawers" tilt="-59.08" url="" skinid="ht_info" description="32&quot; X 72&quot; big items storage - suitable to store bicycle bike parts and gym equipment." target="" pan="-65.75" id="Point06"/>
+      <hotspot title="Vivian Murphy-bed" tilt="-24.37" url="https://www.homedepot.com/p/Vivian-White-Solid-Wood-Frame-Twin-XL-Murphy-Bed-with-Built-in-Charging-Station-AC571102/332471500#overlay" skinid="ht_url" description="" target="_blank" pan="-349.38" id="Point07"/>
+      <hotspot title="Furinno Cabinet" tilt="7.41" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-32.06" id="Point06"/>
+      <hotspot title="Furinno Cabinet" tilt="-3.45" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-325.4" id="Point06"/>
     </hotspots>
     <media/>
     <transition softedge="0" zoomspeed="3.5" zoomin="6" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1" enabled="1"/>
@@ -48,12 +50,14 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label borderalpha="1" backgroundalpha="1" wordwrap="1" border="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" background="1" width="180" height="20" bordercolor="0x000000" enabled="1" textcolor="0x000000"/>
       <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
-      <hotspot title="Station 2" tilt="-14.71" url="{node7}" skinid="ht_node" description="" target="171.4/-1.3/70.0" pan="-20.35" id="2"/>
-      <hotspot title="Resting/Reading Area" tilt="-17.55" url="" skinid="ht_info" description="" target="" pan="-5.46" id="Point01"/>
-      <hotspot title="22&quot;X72&quot; Cabinet" tilt="10.72" url="" skinid="ht_info" description="" target="" pan="-339.47" id="Point02"/>
-      <hotspot title="Storage drawers" tilt="-27.34" url="" skinid="ht_info" description="" target="" pan="-5.74" id="Point03"/>
+      <hotspot title="Relaxing Area" tilt="-8.23" url="{node7}" skinid="ht_node" description="" target="-176.2/0.9/70.0" pan="-4.42" id="2"/>
+      <hotspot title="Resting/Reading Area" tilt="-18.23" url="" skinid="ht_info" description="" target="" pan="-336.9" id="Point01"/>
+      <hotspot title="Storage drawers" tilt="-30.76" url="" skinid="ht_info" description="32&quot; X 72&quot; big items storage - suitable to store bicycle bike parts and gym equipment." target="" pan="-341.49" id="Point03"/>
       <hotspot title="Adjustable tracklights" tilt="33.16" url="" skinid="ht_info" description="" target="" pan="-23.27" id="Point04"/>
-      <hotspot title="Sketch &amp; Pin Board" tilt="15.46" url="" skinid="ht_info" description="" target="" pan="-215.2" id="Point05"/>
+      <hotspot title="Sketch &amp; Pin Board" tilt="7.79" url="" skinid="ht_info" description="" target="" pan="-229.45" id="Point05"/>
+      <hotspot title="Vivianr Murphy-bed" tilt="-63.7" url="https://www.homedepot.com/p/Vivian-White-Solid-Wood-Frame-Twin-XL-Murphy-Bed-with-Built-in-Charging-Station-AC571102/332471500#overlay" skinid="ht_url" description="" target="_blank" pan="-99.53" id="Point07"/>
+      <hotspot title="Furinno Cabinet" tilt="19" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-292.77" id="Point06"/>
+      <hotspot title="Furinno Cabinet" tilt="-5.56" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-56.34" id="Point06"/>
     </hotspots>
     <media/>
     <transition softedge="0" zoomspeed="3.5" zoomin="6" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1" enabled="1"/>
