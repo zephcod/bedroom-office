@@ -1,72 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.11" start="node6" apprev="18043">
+<tour apprev="18043" start="node7" appversion="6.1.11">
   <panorama hideabout="1" id="node7">
-    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400" width="1500" height="1500" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
-      <level preload="0" predecode="0" width="1500" height="1500"/>
-      <level preload="0" predecode="0" width="750" height="750"/>
-      <level preload="1" predecode="1" width="375" height="375"/>
+    <input levelingpitch="0" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" width="1500" levelbias="0.400" height="1500" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1500" height="1500" predecode="0"/>
+      <level preload="0" width="750" height="750" predecode="0"/>
+      <level preload="1" width="375" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fov="120" fovfisheye="360" pan="360" scaletofit="1"/>
+      <max tilt="90" pan="360" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270"/>
     </view>
-    <userdata title="Working Area" latitude="" copyright="Sofonias L" tags="pano" datetime="2/4/2024 7:07 PM" heading="0" description="Prepared by SOF Studio" info="" customnodeid="" source="" nodeid="node7" comment="" longitude="" author="Sofonias L"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label borderalpha="1" backgroundalpha="1" wordwrap="1" border="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" background="1" width="180" height="20" bordercolor="0x000000" enabled="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
-      <hotspot title="Working Area" tilt="-9.56" url="{node6}" skinid="ht_node" description="" target="-178.6/-2.1/70.0" pan="-1.17" id="1"/>
-      <hotspot title="Sketch &amp; Pin Board" tilt="2.7" url="" skinid="ht_info" description="" target="" pan="-13.83" id="Point01"/>
-      <hotspot title="Adjustable Tracklight" tilt="33.26" url="" skinid="ht_info" description="" target="" pan="-25.22" id="Point02"/>
-      <hotspot title="Recessed drape rod" tilt="42.34" url="" skinid="ht_info" description="" target="" pan="-87.37" id="Point04"/>
-      <hotspot title="Resting/Reading" tilt="-40.77" url="" skinid="ht_info" description="" target="" pan="-75.8" id="Point05"/>
-      <hotspot title="Storage Drawers" tilt="-59.08" url="" skinid="ht_info" description="32&quot; X 72&quot; big items storage - suitable to store bicycle bike parts and gym equipment." target="" pan="-65.75" id="Point06"/>
-      <hotspot title="Vivian Murphy-bed" tilt="-24.37" url="https://www.homedepot.com/p/Vivian-White-Solid-Wood-Frame-Twin-XL-Murphy-Bed-with-Built-in-Charging-Station-AC571102/332471500#overlay" skinid="ht_url" description="" target="_blank" pan="-349.38" id="Point07"/>
-      <hotspot title="Furinno Cabinet" tilt="7.41" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-32.06" id="Point06"/>
-      <hotspot title="Furinno Cabinet" tilt="-3.45" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-325.4" id="Point06"/>
+    <userdata description="Prepared by SOF Studio" info="" tags="pano" heading="0" copyright="Sofonias L" nodeid="node7" author="Sofonias L" latitude="" longitude="" datetime="2/4/2024 7:07 PM" comment="" source="" title="Workout Blank" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" width="180" textalpha="1" wordwrap="1" height="20" borderalpha="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" tilt="-9.79" description="" pan="-358.44" url="{node6}" target="-178.6/-2.1/70.0" id="1" title="Workstation"/>
+      <hotspot skinid="ht_url" tilt="2.7" description="" pan="-13.83" url="https://www.homedepot.com/p/VEVOR-36-x-24-in-Whiteboard-and-Cork-Board-Combo-with-Aluminum-Frame-2-in-1-Magnetic-Dry-Erase-Bulletin-Board-RMB36X24BBRM12MTFV0/332172434" target="_blank" id="Point01" title="Vevor Sketch &amp; Pin Board"/>
+      <hotspot skinid="ht_info" tilt="42.34" description="" pan="-87.37" url="" target="" id="Point04" title="Recessed drape rod"/>
+      <hotspot skinid="ht_url" tilt="-24.37" description="" pan="-349.38" url="https://www.homedepot.com/p/Northfield-White-Solid-Wood-Frame-Queen-Murphy-Bed-Chest-with-Mattress-and-Built-in-Charging-Station-AC574142/323319084" target="_blank" id="Point07" title="Northfield Queen-size Murphy-bed"/>
+      <hotspot skinid="ht_url" tilt="10.34" description="Customized furinno cabinet - refer millwork drawings" pan="-33.1" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="-3.45" description="Customized furinno cabinet - refer millwork drawings" pan="-325.4" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="-21.73" description="" pan="-36.62" url="https://www.homedepot.com/p/LACOO-55-in-White-Electric-Standing-Desk-Height-Adjustable-Wooden-Workstation-T-HAD04442/321405172" target="_blank" id="Point03" title="Lacoo Height Adjustable Table"/>
+      <hotspot skinid="ht_url" tilt="28.56" description="" pan="-27.59" url="https://www.homedepot.com/p/Hampton-Bay-4-ft-3-Light-Black-Integrated-LED-Linear-Track-Lighting-Kit-with-Mini-Cylinder-Track-Heads-805049/310684239" target="_blank" id="Point02" title="Hampton Bay Track Lighting Kit"/>
+      <hotspot skinid="ht_url" tilt="62.82" description="" pan="-344.99" url="https://www.homedepot.com/p/NICOR-5-in-White-3000K-LED-Recessed-Adjustable-Square-Downlight-Kit-with-Housing-Trim-and-LED-Module-DLQ5-MA-FIXT-3K-WH/300495753" target="_blank" id="Point08" title="Nicor Adjustable Square Downlight Kit"/>
+      <hotspot skinid="ht_url" tilt="45.4" description="" pan="-334.6" url="https://www.homedepot.com/p/Armacost-Lighting-RibbonFlex-Home-16-ft-5m-12-Volt-White-LED-Strip-Light-Tape-30-LED-m-3000K-141232/321506318" target="_blank" id="Point01" title="Armacost Ribbon Flex 16ft"/>
+      <hotspot skinid="ht_url" tilt="-18.09" description="" pan="-19.52" url="https://www.homedepot.com/p/mount-it-3-Drawer-White-Metal-15-3-in-W-Under-Desk-Pedestal-File-Cabinet-with-Wheels-Rolling-Storage-Lock-Mobile-Space-Saving-MI-941W/329824769" target="_blank" id="Point09" title="Mount It - 3 Drawer White Metal"/>
+      <hotspot skinid="ht_url" tilt="1.11" description="" pan="-136.01" url="https://www.homedepot.com/p/Sttoraboks-55-lbs-Capacity-Vertical-Bike-Stand-Freestanding-Indoor-Bike-Storage-Rack-Upright-Bicycle-Floor-Stand-IBS-005A-D23/327911129" target="_blank" id="Point04" title="Sttoraboks Freestanding Vertical Bike Stand"/>
+      <hotspot skinid="ht_node" tilt="-9.49" description="" pan="-346.25" url="{node8}" target="-178.4/-1.9/70.0" id="1" title="Resting/Bed"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomspeed="3.5" zoomin="6" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1" enabled="1"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedwheel="0" hideabout="1" contextprojections="1" rubberband="0" lockedkeyboard="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" contextfullscreen="1" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomafteroutfov="20" zoomin="6" zoomafterinfov="90" type="crossdissolve" blendtime="1" softedge="0" zoomspeed="3.5"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" rubberband="0" contextfullscreen="1" contextprojections="1" speedwheel="1" dblclickfullscreen="0"/>
   </panorama>
   <panorama hideabout="1" id="node6">
-    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" levelbias="0.400" width="1500" height="1500" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
-      <level preload="0" predecode="0" width="1500" height="1500"/>
-      <level preload="0" predecode="0" width="750" height="750"/>
-      <level preload="1" predecode="1" width="375" height="375"/>
+    <input levelingpitch="0" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" width="1500" levelbias="0.400" height="1500" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1500" height="1500" predecode="0"/>
+      <level preload="0" width="750" height="750" predecode="0"/>
+      <level preload="1" width="375" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" fovstereographic="270" fov="120" fovfisheye="360" pan="360" scaletofit="1"/>
+      <max tilt="90" pan="360" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270"/>
     </view>
-    <userdata title="Relaxing Area" latitude="" copyright="Sofonias L" tags="pano" datetime="2/4/2024 7:06 PM" heading="0" description="Prepared by SOF Studio" info="" customnodeid="" source="" nodeid="node6" comment="" longitude="" author="Sofonias L"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label borderalpha="1" backgroundalpha="1" wordwrap="1" border="1" backgroundcolor="0xffffff" borderradius="1" textalpha="1" background="1" width="180" height="20" bordercolor="0x000000" enabled="1" textcolor="0x000000"/>
-      <polystyle handcursor="1" borderalpha="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff"/>
-      <hotspot title="Relaxing Area" tilt="-8.23" url="{node7}" skinid="ht_node" description="" target="-176.2/0.9/70.0" pan="-4.42" id="2"/>
-      <hotspot title="Resting/Reading Area" tilt="-18.23" url="" skinid="ht_info" description="" target="" pan="-336.9" id="Point01"/>
-      <hotspot title="Storage drawers" tilt="-30.76" url="" skinid="ht_info" description="32&quot; X 72&quot; big items storage - suitable to store bicycle bike parts and gym equipment." target="" pan="-341.49" id="Point03"/>
-      <hotspot title="Adjustable tracklights" tilt="33.16" url="" skinid="ht_info" description="" target="" pan="-23.27" id="Point04"/>
-      <hotspot title="Sketch &amp; Pin Board" tilt="7.79" url="" skinid="ht_info" description="" target="" pan="-229.45" id="Point05"/>
-      <hotspot title="Vivianr Murphy-bed" tilt="-63.7" url="https://www.homedepot.com/p/Vivian-White-Solid-Wood-Frame-Twin-XL-Murphy-Bed-with-Built-in-Charging-Station-AC571102/332471500#overlay" skinid="ht_url" description="" target="_blank" pan="-99.53" id="Point07"/>
-      <hotspot title="Furinno Cabinet" tilt="19" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-292.77" id="Point06"/>
-      <hotspot title="Furinno Cabinet" tilt="-5.56" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" skinid="ht_url" description="Customized furinno cabinet - refer millwork drawings" target="_blank" pan="-56.34" id="Point06"/>
+    <userdata description="Prepared by SOF Studio" info="" tags="pano" heading="0" copyright="Sofonias L" nodeid="node6" author="Sofonias L" latitude="" longitude="" datetime="2/4/2024 7:06 PM" comment="" source="" title="Workstation" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" width="180" textalpha="1" wordwrap="1" height="20" borderalpha="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" tilt="-8.4" description="" pan="-5.23" url="{node7}" target="-176.2/0.9/70.0" id="2" title="Workout Blank"/>
+      <hotspot skinid="ht_url" tilt="7.79" description="" pan="-229.45" url="https://www.homedepot.com/p/VEVOR-36-x-24-in-Whiteboard-and-Cork-Board-Combo-with-Aluminum-Frame-2-in-1-Magnetic-Dry-Erase-Bulletin-Board-RMB36X24BBRM12MTFV0/332172434" target="_blank" id="Point05" title="Vevor Sketch &amp; Pin Board"/>
+      <hotspot skinid="ht_url" tilt="-63.7" description="" pan="-99.53" url="https://www.homedepot.com/p/Northfield-White-Solid-Wood-Frame-Queen-Murphy-Bed-Chest-with-Mattress-and-Built-in-Charging-Station-AC574142/323319084" target="_blank" id="Point07" title="Northfield Queen-size Murphy-bed"/>
+      <hotspot skinid="ht_url" tilt="19" description="Customized furinno cabinet - refer millwork drawings" pan="-292.77" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="-5.56" description="Customized furinno cabinet - refer millwork drawings" pan="-56.34" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="-38.11" description="" pan="-276.37" url="https://www.homedepot.com/p/LACOO-55-in-White-Electric-Standing-Desk-Height-Adjustable-Wooden-Workstation-T-HAD04442/321405172" target="_blank" id="Point03" title="Lacoo Height Adjustable Table"/>
+      <hotspot skinid="ht_url" tilt="33.48" description="" pan="-35.44" url="https://www.homedepot.com/p/Hampton-Bay-4-ft-3-Light-Black-Integrated-LED-Linear-Track-Lighting-Kit-with-Mini-Cylinder-Track-Heads-805049/310684239" target="_blank" id="Point02" title="Hampton Bay Track Lighting Kit"/>
+      <hotspot skinid="ht_url" tilt="62.37" description="" pan="-345.43" url="https://www.homedepot.com/p/NICOR-5-in-White-3000K-LED-Recessed-Adjustable-Square-Downlight-Kit-with-Housing-Trim-and-LED-Module-DLQ5-MA-FIXT-3K-WH/300495753" target="_blank" id="Point08" title="Nicor Adjustable Square Downlight Kit"/>
+      <hotspot skinid="ht_url" tilt="44.48" description="" pan="-24.9" url="https://www.homedepot.com/p/Armacost-Lighting-RibbonFlex-Home-16-ft-5m-12-Volt-White-LED-Strip-Light-Tape-30-LED-m-3000K-141232/321506318" target="_blank" id="Point01" title="Armacost Ribbon Flex 16ft"/>
+      <hotspot skinid="ht_url" tilt="-5.28" description="" pan="-346.36" url="https://www.homedepot.com/p/Sttoraboks-55-lbs-Capacity-Vertical-Bike-Stand-Freestanding-Indoor-Bike-Storage-Rack-Upright-Bicycle-Floor-Stand-IBS-005A-D23/327911129" target="_blank" id="Point04" title="Sttoraboks Freestanding Vertical Bike Stand"/>
+      <hotspot skinid="ht_url" tilt="-47.76" description="" pan="-258.22" url="https://www.homedepot.com/p/mount-it-3-Drawer-White-Metal-15-3-in-W-Under-Desk-Pedestal-File-Cabinet-with-Wheels-Rolling-Storage-Lock-Mobile-Space-Saving-MI-941W/329824769" target="_blank" id="Point09" title="Mount It - 3 Drawer White Metal"/>
+      <hotspot skinid="ht_node" tilt="-8.44" description="" pan="-357.69" url="{node9}" target="174.2/-9.1/70.0" id="2" title="Workout With Bed"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomspeed="3.5" zoomin="6" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomout="0" zoomfov="20" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1" enabled="1"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedwheel="0" hideabout="1" contextprojections="1" rubberband="0" lockedkeyboard="0" dblclickfullscreen="0" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" contextfullscreen="1" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomafteroutfov="20" zoomin="6" zoomafterinfov="90" type="crossdissolve" blendtime="1" softedge="0" zoomspeed="3.5"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" rubberband="0" contextfullscreen="1" contextprojections="1" speedwheel="1" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input levelingpitch="0" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" width="1500" levelbias="0.400" height="1500" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1500" height="1500" predecode="0"/>
+      <level preload="0" width="750" height="750" predecode="0"/>
+      <level preload="1" width="375" height="375" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata description="Prepared by SOF Studio" info="" tags="Windows" heading="0" copyright="Sofonias L" nodeid="node8" author="Sofonias L" latitude="" longitude="" datetime="10/22/2024 11:34 AM" comment="" source="" title="Resting/Bed" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" width="180" textalpha="1" wordwrap="1" height="20" borderalpha="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" tilt="-7.76" description="" pan="-5.78" url="{node7}" target="-176.2/0.9/70.0" id="2" title="Workout Blank"/>
+      <hotspot skinid="ht_node" tilt="-7.9" description="" pan="-359.36" url="{node9}" target="174.2/-9.1/70.0" id="2" title="Workout With Bed"/>
+      <hotspot skinid="ht_url" tilt="-4.86" description="Customized furinno cabinet - refer millwork drawings" pan="-66.32" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="34.7" description="" pan="-35.63" url="https://www.homedepot.com/p/Hampton-Bay-4-ft-3-Light-Black-Integrated-LED-Linear-Track-Lighting-Kit-with-Mini-Cylinder-Track-Heads-805049/310684239" target="_blank" id="Point02" title="Hampton Bay Track Lighting Kit"/>
+      <hotspot skinid="ht_url" tilt="43.81" description="" pan="-22.69" url="https://www.homedepot.com/p/Armacost-Lighting-RibbonFlex-Home-16-ft-5m-12-Volt-White-LED-Strip-Light-Tape-30-LED-m-3000K-141232/321506318" target="_blank" id="Point01" title="Armacost Ribbon Flex 16ft"/>
+      <hotspot skinid="ht_url" tilt="63.03" description="" pan="-344.25" url="https://www.homedepot.com/p/NICOR-5-in-White-3000K-LED-Recessed-Adjustable-Square-Downlight-Kit-with-Housing-Trim-and-LED-Module-DLQ5-MA-FIXT-3K-WH/300495753" target="_blank" id="Point08" title="Nicor Adjustable Square Downlight Kit"/>
+      <hotspot skinid="ht_url" tilt="18.84" description="Customized furinno cabinet - refer millwork drawings" pan="-292.58" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="-37.5" description="" pan="-273.86" url="https://www.homedepot.com/p/LACOO-55-in-White-Electric-Standing-Desk-Height-Adjustable-Wooden-Workstation-T-HAD04442/321405172" target="_blank" id="Point03" title="Lacoo Height Adjustable Table"/>
+      <hotspot skinid="ht_url" tilt="-47.75" description="" pan="-258.02" url="https://www.homedepot.com/p/mount-it-3-Drawer-White-Metal-15-3-in-W-Under-Desk-Pedestal-File-Cabinet-with-Wheels-Rolling-Storage-Lock-Mobile-Space-Saving-MI-941W/329824769" target="_blank" id="Point09" title="Mount It - 3 Drawer White Metal"/>
+      <hotspot skinid="ht_url" tilt="6.49" description="" pan="-229.29" url="https://www.homedepot.com/p/VEVOR-36-x-24-in-Whiteboard-and-Cork-Board-Combo-with-Aluminum-Frame-2-in-1-Magnetic-Dry-Erase-Bulletin-Board-RMB36X24BBRM12MTFV0/332172434" target="_blank" id="Point05" title="Vevor Sketch &amp; Pin Board"/>
+      <hotspot skinid="ht_url" tilt="-56.7" description="" pan="-53.09" url="https://www.homedepot.com/p/Northfield-White-Solid-Wood-Frame-Queen-Murphy-Bed-Chest-with-Mattress-and-Built-in-Charging-Station-AC574142/323319084" target="_blank" id="Point07" title="Northfield Queen-size Murphy-bed"/>
+      <hotspot skinid="ht_url" tilt="-5.63" description="" pan="-346.17" url="https://www.homedepot.com/p/Sttoraboks-55-lbs-Capacity-Vertical-Bike-Stand-Freestanding-Indoor-Bike-Storage-Rack-Upright-Bicycle-Floor-Stand-IBS-005A-D23/327911129" target="_blank" id="Point04" title="Sttoraboks Freestanding Vertical Bike Stand"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomafteroutfov="20" zoomin="6" zoomafterinfov="90" type="crossdissolve" blendtime="1" softedge="0" zoomspeed="3.5"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" rubberband="0" contextfullscreen="1" contextprojections="1" speedwheel="1" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input levelingpitch="0" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" width="1500" levelbias="0.400" height="1500" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level preload="0" width="1500" height="1500" predecode="0"/>
+      <level preload="0" width="750" height="750" predecode="0"/>
+      <level preload="1" width="375" height="375" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata description="Prepared by SOF Studio" info="" tags="Windows" heading="0" copyright="Sofonias L" nodeid="node9" author="Sofonias L" latitude="" longitude="" datetime="10/22/2024 11:41 AM" comment="" source="" title="Workout + Bed" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label bordercolor="0x000000" border="1" backgroundalpha="1" enabled="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" width="180" textalpha="1" wordwrap="1" height="20" borderalpha="1" borderradius="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" tilt="-8.65" description="" pan="-358.01" url="{node6}" target="-178.6/-2.1/70.0" id="1" title="Workstation"/>
+      <hotspot skinid="ht_node" tilt="-8.54" description="" pan="-344.83" url="{node8}" target="-178.4/-1.9/70.0" id="1" title="Resting/Bed"/>
+      <hotspot skinid="ht_url" tilt="-21.9" description="" pan="-347.1" url="https://www.homedepot.com/p/Northfield-White-Solid-Wood-Frame-Queen-Murphy-Bed-Chest-with-Mattress-and-Built-in-Charging-Station-AC574142/323319084" target="_blank" id="Point07" title="Northfield Queen-size Murphy-bed"/>
+      <hotspot skinid="ht_url" tilt="-3.2" description="Customized furinno cabinet - refer millwork drawings" pan="-323.18" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="11.32" description="Customized furinno cabinet - refer millwork drawings" pan="-34.17" url="https://www.homedepot.com/p/Furinno-41-7-in-White-Faux-Wood-7-shelf-Standard-Bookcase-with-Storage-11048WH/302997705" target="_blank" id="Point06" title="Furinno Cabinet"/>
+      <hotspot skinid="ht_url" tilt="2.88" description="" pan="-13.21" url="https://www.homedepot.com/p/VEVOR-36-x-24-in-Whiteboard-and-Cork-Board-Combo-with-Aluminum-Frame-2-in-1-Magnetic-Dry-Erase-Bulletin-Board-RMB36X24BBRM12MTFV0/332172434" target="_blank" id="Point01" title="Vevor Sketch &amp; Pin Board"/>
+      <hotspot skinid="ht_url" tilt="-21.85" description="" pan="-35.66" url="https://www.homedepot.com/p/LACOO-55-in-White-Electric-Standing-Desk-Height-Adjustable-Wooden-Workstation-T-HAD04442/321405172" target="_blank" id="Point03" title="Lacoo Height Adjustable Table"/>
+      <hotspot skinid="ht_url" tilt="-13.35" description="" pan="-23.91" url="https://www.homedepot.com/p/mount-it-3-Drawer-White-Metal-15-3-in-W-Under-Desk-Pedestal-File-Cabinet-with-Wheels-Rolling-Storage-Lock-Mobile-Space-Saving-MI-941W/329824769" target="_blank" id="Point09" title="Mount It - 3 Drawer White Metal"/>
+      <hotspot skinid="ht_url" tilt="27.89" description="" pan="-27.46" url="https://www.homedepot.com/p/Hampton-Bay-4-ft-3-Light-Black-Integrated-LED-Linear-Track-Lighting-Kit-with-Mini-Cylinder-Track-Heads-805049/310684239" target="_blank" id="Point02" title="Hampton Bay Track Lighting Kit"/>
+      <hotspot skinid="ht_url" tilt="46.6" description="" pan="-334.19" url="https://www.homedepot.com/p/Armacost-Lighting-RibbonFlex-Home-16-ft-5m-12-Volt-White-LED-Strip-Light-Tape-30-LED-m-3000K-141232/321506318" target="_blank" id="Point01" title="Armacost Ribbon Flex 16ft"/>
+      <hotspot skinid="ht_url" tilt="62.41" description="" pan="-345.46" url="https://www.homedepot.com/p/NICOR-5-in-White-3000K-LED-Recessed-Adjustable-Square-Downlight-Kit-with-Housing-Trim-and-LED-Module-DLQ5-MA-FIXT-3K-WH/300495753" target="_blank" id="Point08" title="Nicor Adjustable Square Downlight Kit"/>
+      <hotspot skinid="ht_info" tilt="44.04" description="" pan="-87.69" url="" target="" id="Point04" title="Recessed drape rod"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomafteroutfov="20" zoomin="6" zoomafterinfov="90" type="crossdissolve" blendtime="1" softedge="0" zoomspeed="3.5"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control simulatemass="1" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" lockedkeyboardzoom="0" invertwheel="0" sensitivity="8" lockedmouse="0" hideabout="1" rubberband="0" contextfullscreen="1" contextprojections="1" speedwheel="1" dblclickfullscreen="0"/>
   </panorama>
   <masternode>
-    <userdata title="Bedroom-Office" latitude="" copyright="Sofonias L" tags="" datetime="" heading="0" description="Prepared by SOF Studio" info="" customnodeid="" source="" nodeid="master" comment="" longitude="" author="Sofonias L"/>
+    <userdata description="Prepared by SOF Studio" info="" tags="" heading="0" copyright="Sofonias L" nodeid="master" author="Sofonias L" latitude="" longitude="" datetime="" comment="" source="" title="Bedroom-Office" customnodeid=""/>
   </masternode>
-  <map title="Bathroom Floor Plan" bgcolor="rgba(255, 255, 255, 1)" zoomlevels="1" type="file" id="FloorPlan01" width="0" height="0" transparent="0" tileformat="jpg" floorplannorth="220"/>
+  <map bgcolor="rgba(255, 255, 255, 1)" tileformat="jpg" width="0" zoomlevels="1" transparent="0" floorplannorth="220" id="FloorPlan01" type="file" title="Bathroom Floor Plan" height="0"/>
 </tour>
